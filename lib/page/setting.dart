@@ -27,6 +27,7 @@ class Setting extends StatelessWidget {
       ),
     );
   }
+  
 
   Future<void> _logout(BuildContext context) async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
