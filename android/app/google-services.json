@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "764712864508",
+    "project_id": "obatin-ef71d",
+    "storage_bucket": "obatin-ef71d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:764712864508:android:165e2c257ec6989df5a579",
+        "android_client_info": {
+          "package_name": "com.example.obat_5200411150"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlwlhm1k9cMTk3f2RQOdz-YbWbgQp_6Ns"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
