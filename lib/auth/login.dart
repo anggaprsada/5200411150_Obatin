@@ -112,6 +112,7 @@ class _LoginState extends State<Login> {
                   backgroundColor: Colors.white,
                   padding: EdgeInsets.symmetric(horizontal: 50, vertical: 15),
                 ),
+                
               ),
               SizedBox(height: 10),
               Text(
