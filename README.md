@@ -12,14 +12,10 @@ firebase menyimpan data di keranjang dan data akun
 ![Logo Proyek](https://github.com/anggaprsada/5200411150_Obatin/blob/obat/Screenshot%202024-12-22%20045955.png)
 ---
 penjelasan sedikit mengenai CRUD di keranjang
-- Create
-  Create ketika item ditambahkan dari beranda
-- Read
-  Read ketika item ditampilkan dikeranjang
-- Update
-  Update ketika menambah atau mengurangi item di keranjang
-- Delete
-  Delete ketika menghapus dikeranjang
+- Create ketika item ditambahkan dari beranda
+- Read ketika item ditampilkan dikeranjang
+- Update ketika menambah atau mengurangi item di keranjang
+- Delete ketika menghapus dikeranjang
  
  # Proyek Obat
 flutter run -d chrome --web-renderer html
