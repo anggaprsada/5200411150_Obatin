@@ -18,7 +18,9 @@ class Setting extends StatelessWidget {
             // Call the logout function
             await _logout(context);
           },
-          child: Text('LOG OUT'),
+          child: Text('LOG OUT',
+                  style: TextStyle(color: Colors.white),
+                  ),
           style: ElevatedButton.styleFrom(
             padding: EdgeInsets.symmetric(horizontal: 50, vertical: 15),
             backgroundColor: Colors.red, // Change color to indicate logout
