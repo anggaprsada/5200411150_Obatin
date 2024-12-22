@@ -18,6 +18,7 @@ penjelasan sedikit mengenai CRUD di keranjang
 - Delete ketika menghapus dikeranjang
  
  # Proyek Obat
+ menjalankan proyek di Terminal, karena jika tidak maka gambar tidak bisa tampil
 flutter run -d chrome --web-renderer html
 
 https://github.com/anggaprsada/5200411150_Obatin.git
