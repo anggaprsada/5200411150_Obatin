@@ -19,17 +19,13 @@ class GetStart extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Image.asset(
-              'images/logo.png',
+              'images/logo1.png',
               width: 300, // Adjust the width as needed
               height: 150, // Adjust the height as needed
             ),
+            SizedBox(height: 100),
             Text(
-              'Get Started',
-              style: TextStyle(color: Colors.white, fontSize: 24),
-            ),
-            SizedBox(height: 10),
-            Text(
-              'Start with sign up or sign in',
+              'Mulai dengan daftar atau masuk',
               style: TextStyle(color: Colors.white70),
             ),
             SizedBox(height: 30),
@@ -41,7 +37,7 @@ class GetStart extends StatelessWidget {
                 );
               },
               child: Text(
-                'SIGN UP',
+                'DAFTAR',
                 style: TextStyle(color: Colors.green),
               ),
               style: ElevatedButton.styleFrom(
@@ -58,7 +54,7 @@ class GetStart extends StatelessWidget {
                 );
               },
               child: Text(
-                'SIGN IN',
+                'MASUK',
                 style: TextStyle(color: Colors.green),
               ),
               style: ElevatedButton.styleFrom(

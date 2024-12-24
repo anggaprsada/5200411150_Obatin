@@ -96,7 +96,7 @@ class _HotProductState extends State<HotProduct> {
       }
 
       ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(content: Text('${product['name']} added to cart!')),
+        SnackBar(content: Text('${product['name']} ditambahkan ke keranjang!')),
       );
     } catch (e) {
       print('Error adding to cart: $e');

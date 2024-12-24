@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:google_nav_bar/google_nav_bar.dart';
-import 'package:obat_5200411150/page/home.dart';
-import 'package:obat_5200411150/page/setting.dart';
-import 'package:obat_5200411150/page/troli.dart';
+import 'package:obat_5200411150/navbar/home.dart';
+import 'package:obat_5200411150/navbar/setting.dart';
+import 'package:obat_5200411150/navbar/troli.dart';
 
 class NavBar extends StatefulWidget {
   const NavBar({super.key});
@@ -36,7 +36,7 @@ class _NavbarState extends State<NavBar> {
         bottomNavigationBar: Container(
           color: Colors.green,
           child: Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 15.0, vertical: 20),
+            padding: const EdgeInsets.symmetric(horizontal: 15.0, vertical: 10),
             child: GNav(
               gap: 30, // Jarak antara ikon
               activeColor: Colors.green, // Warna ikon yang aktif
@@ -58,8 +58,8 @@ class _NavbarState extends State<NavBar> {
                   text: 'Keranjang',
                 ),
                 GButton(
-                  icon: Icons.settings,
-                  text: 'Pengaturan',
+                  icon: Icons.person,
+                  text: 'Akun',
                 ),
               ],
             ),

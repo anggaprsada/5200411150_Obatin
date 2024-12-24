@@ -63,11 +63,21 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
+  fonts:
+    - family: MadeTommyBold
+      fonts:
+        - asset: fonts/MADETOMMYBold_PERSONALUSE.otf
+    - family: MadeTommyLight
+      fonts:
+        - asset: fonts/MADETOMMYLight_PERSONALUSE.otf
 
   # To add assets to your application, add an assets section, like this:
   assets:
     - images/logo.png
+    - images/logo1.png
+    - images/qris.png
   #   - images/a_dot_ham.jpeg
+
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images

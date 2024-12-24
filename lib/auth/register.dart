@@ -73,12 +73,12 @@ class _RegisterState extends State<Register> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Text(
-                'Sign Up',
+                'Daftar',
                 style: TextStyle(color: Colors.white, fontSize: 24),
               ),
               SizedBox(height: 10),
               Text(
-                "Hello! let's join with us",
+                "Hello! mari bergabung",
                 style: TextStyle(color: Colors.white70),
               ),
               SizedBox(height: 30),
@@ -110,7 +110,7 @@ class _RegisterState extends State<Register> {
               TextField(
                 controller: _confirmPasswordController,
                 decoration: InputDecoration(
-                  hintText: 'Confirm Password',
+                  hintText: 'Konfirmasi Password',
                   filled: true,
                   fillColor: Colors.white,
                   border: OutlineInputBorder(
@@ -124,7 +124,7 @@ class _RegisterState extends State<Register> {
                 children: [
                   Checkbox(value: false, onChanged: (value) {}),
                   Text(
-                    'I agree with privacy policy',
+                    'Saya menerima syarat dan ketentuan',
                     style: TextStyle(color: Colors.white70),
                   ),
                 ],
@@ -133,7 +133,7 @@ class _RegisterState extends State<Register> {
               ElevatedButton(
                 onPressed: _register,
                 child: Text(
-                  'SIGN UP',
+                  'DAFTAR',
                   style: TextStyle(color: Colors.green),
                 ),
                 style: ElevatedButton.styleFrom(

@@ -49,12 +49,12 @@ class _LoginState extends State<Login> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Text(
-                'Welcome Back',
+                'Selamat Datang',
                 style: TextStyle(color: Colors.white, fontSize: 24),
               ),
               SizedBox(height: 10),
               Text(
-                'Hey! Good to see you again',
+                'Hey! apa kabar?',
                 style: TextStyle(color: Colors.white70),
               ),
               SizedBox(height: 30),
@@ -90,13 +90,13 @@ class _LoginState extends State<Login> {
                     children: [
                       Checkbox(value: false, onChanged: (value) {}),
                       Text(
-                        'Remember me',
+                        'Ingat saya',
                         style: TextStyle(color: Colors.white70),
                       ),
                     ],
                   ),
                   Text(
-                    'Forgot password?',
+                    'Lupa password?',
                     style: TextStyle(color: Colors.white70),
                   ),
                 ],
@@ -105,7 +105,7 @@ class _LoginState extends State<Login> {
               ElevatedButton(
                 onPressed: _signIn,
                 child: Text(
-                  'SIGN IN',
+                  'MASUK',
                   style: TextStyle(color: Colors.green),
                 ),
                 style: ElevatedButton.styleFrom(
@@ -116,7 +116,7 @@ class _LoginState extends State<Login> {
               ),
               SizedBox(height: 10),
               Text(
-                "Don't have an account? Sign up",
+                "Tidak memiliki akun? Daftar",
                 style: TextStyle(color: Colors.white),
               ),
             ],
