@@ -38,17 +38,11 @@ Project ini menggunakan branch khusus untuk pengembangan:
 ### 1. Clone Repository
 
 ```bash id="3q2u0v"
-git clone https://github.com/anggaprsada/5200411150_Obatin.git
+git clone -b obat https://github.com/anggaprsada/5200411150_Obatin.git
 cd 5200411150_Obatin
 ```
 
-### 2. Pindah ke Branch Aplikasi
-
-```bash id="8k1nla"
-git checkout obat
-```
-
-### 3. Jalankan Aplikasi
+### 2. Jalankan Aplikasi
 
 ```bash id="rm8r7v"
 flutter pub get
