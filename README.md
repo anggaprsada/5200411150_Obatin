@@ -1,10 +1,72 @@
-# 5200411150_Obatin
+# 💊 Obatin – Aplikasi E-Commerce Apotek
 
-ubah branch
-ikuti cara dibawah
+**Obatin** adalah aplikasi mobile e-commerce berbasis **Flutter** yang dirancang untuk memudahkan pengguna dalam mencari dan membeli produk apotek secara online. Aplikasi ini menggunakan **Firebase** sebagai backend untuk autentikasi dan pengelolaan data secara realtime.
 
-![Logo GitHub](https://github.com/anggaprsada/5200411150_Obatin/blob/main/Screenshot%202024-12-22%20043843.png)
+---
 
-![Logo GitHub](https://github.com/anggaprsada/5200411150_Obatin/blob/main/Screenshot%202024-12-22%20043858.png)
+## 🚀 Fitur Utama
 
-pilih brach obat
+* 🔐 Autentikasi pengguna (Login & Register) menggunakan Firebase Authentication
+* 🛍️ Katalog produk apotek (obat & kebutuhan kesehatan)
+* 🔎 Pencarian dan eksplorasi produk
+* 🛒 Keranjang belanja (*shopping cart*)
+* 💳 Proses pemesanan (*checkout*)
+* 📦 Manajemen data produk dan transaksi
+* 🔄 Sinkronisasi data secara realtime menggunakan Firebase
+
+---
+
+## 🛠️ Teknologi yang Digunakan
+
+* **Frontend:** Flutter
+* **Backend / Database:** Firebase (Authentication & Firestore / Realtime Database)
+* **Bahasa:** Dart
+
+---
+
+## 📂 Struktur Branch
+
+Project ini menggunakan branch khusus untuk pengembangan:
+
+* `main` → dokumentasi / base project
+* `obat` → source code utama aplikasi
+
+---
+
+## 🔧 Cara Menjalankan Project
+
+### 1. Clone Repository
+
+```bash id="3q2u0v"
+git clone https://github.com/anggaprsada/5200411150_Obatin.git
+cd 5200411150_Obatin
+```
+
+### 2. Pindah ke Branch Aplikasi
+
+```bash id="8k1nla"
+git checkout obat
+```
+
+### 3. Jalankan Aplikasi
+
+```bash id="rm8r7v"
+flutter pub get
+flutter run
+```
+
+---
+
+## 📌 Catatan
+
+* Pastikan sudah menginstall Flutter SDK
+* Pastikan konfigurasi Firebase sudah sesuai (google-services.json / firebase config)
+* Gunakan emulator atau perangkat fisik untuk menjalankan aplikasi
+
+---
+
+## 👨‍💻 Developer
+
+Dikembangkan oleh **Angga Persada**
+
+---
