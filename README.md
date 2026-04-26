@@ -8,7 +8,6 @@
 
 * 🔐 Autentikasi pengguna (Login & Register) menggunakan Firebase Authentication
 * 🛍️ Katalog produk apotek (obat & kebutuhan kesehatan)
-* 🔎 Pencarian dan eksplorasi produk
 * 🛒 Keranjang belanja (*shopping cart*)
 * 💳 Proses pemesanan (*checkout*)
 * 📦 Manajemen data produk dan transaksi
@@ -21,15 +20,6 @@
 * **Frontend:** Flutter
 * **Backend / Database:** Firebase (Authentication & Firestore / Realtime Database)
 * **Bahasa:** Dart
-
----
-
-## 📂 Struktur Branch
-
-Project ini menggunakan branch khusus untuk pengembangan:
-
-* `main` → dokumentasi / base project
-* `obat` → source code utama aplikasi
 
 ---
 
